@@ -1,1 +1,22 @@
-Kaua Dos Santos Weber
+public class ExemploErrado {
+
+    public static void main(String args) { // ERRO: deveria ser String[] args
+        int numero = "10"; // ERRO: tipo incorreto (String em variável int)
+
+        System.out.println("Digite um número: ");
+        Scanner teclado = new Scanner(System.in) // ERRO: falta ponto e vírgula
+
+        int x;
+        x = teclado.nextInt; // ERRO: nextInt() precisa de parênteses
+
+        if (x = 10) { // ERRO: operador de comparação errado (deveria ser ==)
+            System.ou.println("O número é dez!"); // ERRO: 'ou' está errado
+        }
+
+        for int i = 0; i < 5; i++ { // ERRO: sintaxe do for
+            System.out.println(i)
+        }
+
+        teclado.close() // ERRO: falta ponto e vírgula
+    }
+}
